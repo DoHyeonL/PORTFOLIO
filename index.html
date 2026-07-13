@@ -380,6 +380,11 @@
       .section { padding: 56px 20px; }
       footer { flex-direction: column; gap: 4px; padding: 24px 20px; }
     }
+
+    /* ── 모바일(터치 기기)에서만 히어로 위아래 여백 줄이기, PC 레이아웃은 그대로 ── */
+    @media (hover: none) and (pointer: coarse) {
+      #hero { min-height: auto; padding-top: 60px; padding-bottom: 40px; }
+    }
   </style>
 </head>
 <body>
