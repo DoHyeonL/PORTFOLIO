@@ -152,8 +152,6 @@
       font-size: 2rem; font-weight: 800; letter-spacing: -0.03em;
       color: var(--teal); margin-bottom: 36px; display: block;
     }
-    .sec-title { display: none; }
-
     /* ── ABOUT ── */
     .about-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
 
@@ -203,7 +201,6 @@
     .pi-val a:hover { text-decoration: underline; }
 
     /* ── SKILLS — pill 뱃지 ── */
-    .skills-wrap { }
     .skill-pills {
       display: grid;
       grid-template-columns: repeat(4, auto);
@@ -371,7 +368,6 @@
       .hero-aside { flex: 0 0 auto; align-items: flex-start; }
       .photo-ring { width: 200px; height: 200px; }
       .about-cols { grid-template-columns: 1fr; }
-      .skills-grid { grid-template-columns: 1fr; }
       .proj-name { font-size: 2rem; }
       .impl-strip { grid-template-columns: 1fr 1fr; }
       .impl-cell:nth-child(2) { border-right: none; }
@@ -406,7 +402,7 @@
   <div class="hero-right">
     <div class="photo-ring">
       <div class="photo-inner">
-        <img src="imges/증명사진.png">
+        <img src="images/증명사진.png" alt="이도현 증명사진">
       </div>
     </div>
   </div>
@@ -638,17 +634,17 @@
         <button class="ss-tab" onclick="showPodoGroup(this,'g3')">안전 경로 · 보호자</button>
       </div>
       <div id="podo-g1" style="display:flex; justify-content:center; align-items:center; gap:32px; padding:32px; border-top:1px solid var(--border); background:var(--bg);">
-        <img src="imges/01_로그인.png" alt="로그인 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
-        <img src="imges/02_사이드바.png" alt="사이드바 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/01_로그인.png" alt="로그인 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/02_사이드바.png" alt="사이드바 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
       </div>
       <div id="podo-g2" style="display:none; justify-content:center; align-items:center; gap:32px; padding:32px; border-top:1px solid var(--border); background:var(--bg);">
-        <img src="imges/03_실시간검색.png" alt="실시간 검색 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
-        <img src="imges/04_출발도착선택.png" alt="출발지 도착지 선택 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/03_실시간검색.png" alt="실시간 검색 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/04_출발도착선택.png" alt="출발지 도착지 선택 화면" style="height:520px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
       </div>
       <div id="podo-g3" style="display:none; justify-content:center; align-items:center; gap:24px; padding:32px; border-top:1px solid var(--border); background:var(--bg);">
-        <img src="imges/05_경로카드비교.png" alt="경로 카드 비교 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
-        <img src="imges/06_안전경로안내_사본.png" alt="안전 경로 안내 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
-        <img src="imges/07_보호자.png" alt="보호자 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/05_경로카드비교.png" alt="경로 카드 비교 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/06_안전경로안내_사본.png" alt="안전 경로 안내 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
+        <img src="images/07_보호자.png" alt="보호자 화면" style="height:440px; width:auto; display:block; border-radius:12px; box-shadow:var(--shadow);" />
       </div>
     </div>
 
@@ -719,20 +715,20 @@
       </div>
       <div id="manyo-desktop" style="display:flex; align-items:center; justify-content:center; gap:16px; padding:32px; border-top:1px solid var(--border); background:var(--bg);">
         <button onclick="slideManyoDesktop(-1)" aria-label="이전 화면" style="flex-shrink:0; width:40px; height:40px; border-radius:50%; border:1px solid var(--border); background:var(--white); color:var(--ink); font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center;">‹</button>
-        <img id="ss-manyo-desktop" src="imges/manyo_01_메인.png" alt="데스크톱 화면" style="width:94%; max-width:900px; height:auto; display:block; border-radius:12px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img id="ss-manyo-desktop" src="images/manyo_01_메인.png" alt="데스크톱 화면" style="width:94%; max-width:900px; height:auto; display:block; border-radius:12px; border:1px solid var(--border); box-shadow:var(--shadow);" />
         <button onclick="slideManyoDesktop(1)" aria-label="다음 화면" style="flex-shrink:0; width:40px; height:40px; border-radius:50%; border:1px solid var(--border); background:var(--white); color:var(--ink); font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center;">›</button>
       </div>
       <div id="manyo-tablet" style="display:none; justify-content:center; align-items:flex-start; gap:20px; padding:32px; border-top:1px solid var(--border); background:var(--bg); overflow-x:auto;">
-        <img src="imges/manyo_06_태블릿메인.png" alt="태블릿 메인 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_12_태블릿샵드롭다운.png" alt="태블릿 SHOP 카테고리 드롭다운 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_07_태블릿상품.png" alt="태블릿 상품 목록 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_06_태블릿메인.png" alt="태블릿 메인 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_12_태블릿샵드롭다운.png" alt="태블릿 SHOP 카테고리 드롭다운 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_07_태블릿상품.png" alt="태블릿 상품 목록 화면" style="width:360px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
       </div>
       <div id="manyo-mobile" style="display:none; justify-content:center; align-items:flex-start; gap:18px; padding:32px; border-top:1px solid var(--border); background:var(--bg); overflow-x:auto;">
-        <img src="imges/manyo_04_모바일메인.png" alt="모바일 메인 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_05_모바일메뉴.png" alt="모바일 햄버거 메뉴 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_11_모바일상품.png" alt="모바일 상품 목록 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_14_모바일추천헤더.png" alt="모바일 추천 상품 필터 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
-        <img src="imges/manyo_15_모바일프로모션.png" alt="모바일 프로모션 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_04_모바일메인.png" alt="모바일 메인 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_05_모바일메뉴.png" alt="모바일 햄버거 메뉴 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_11_모바일상품.png" alt="모바일 상품 목록 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_14_모바일추천헤더.png" alt="모바일 추천 상품 필터 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
+        <img src="images/manyo_15_모바일프로모션.png" alt="모바일 프로모션 화면" style="width:210px; height:auto; display:block; border-radius:8px; border:1px solid var(--border); box-shadow:var(--shadow);" />
       </div>
       <div id="manyo-background" style="display:none; align-items:center; justify-content:center; gap:10px; padding:32px 16px; border-top:1px solid var(--border); background:var(--bg);">
         <button class="slide-arrow-btn" onclick="slideManyoBg(-1)" aria-label="이전">‹</button>
@@ -743,8 +739,8 @@
             <p class="redesign-item-desc">원본 사이트의 히어로 영역은 상품 이미지를 활용한 배너가 자동으로 전환되는 캐러셀로 구성되어 있습니다. 배너를 하나씩 확인해보니 전부 상품 상세 페이지로 연결되는 구조였는데, 정작 사진만 봐서는 이것이 프로모션·이벤트를 안내하는 배너인지 단순히 상품 구매를 유도하는 배너인지 구분이 되지 않았습니다.</p>
             <p class="redesign-item-desc">리디자인에서는 첫 화면에서 브랜드의 정체성을 명확하게 전달하는 데 초점을 맞춰, 고정된 브랜드 배너 하나만을 두어 방문 시점과 무관하게 일관된 브랜드 이미지를 전달하도록 구성했습니다.</p>
             <div class="redesign-compare">
-              <figure><img src="imges/compare/before_main.png" alt="원본 히어로 캐러셀"/><figcaption>Before (원본)</figcaption></figure>
-              <figure><img src="imges/compare/after_main.png" alt="리디자인 고정 브랜드 배너"/><figcaption>After (리디자인)</figcaption></figure>
+              <figure><img src="images/compare/before_main.png" alt="원본 히어로 캐러셀"/><figcaption>Before (원본)</figcaption></figure>
+              <figure><img src="images/compare/after_main.png" alt="리디자인 고정 브랜드 배너"/><figcaption>After (리디자인)</figcaption></figure>
             </div>
           </div>
 
@@ -753,8 +749,8 @@
             <p class="redesign-item-desc">원본 사이트는 상품을 소개하는 영역이 "지금 가장 사랑받는 제품" 섹션 하나로 한정되어 있었습니다.</p>
             <p class="redesign-item-desc">리디자인에서는 여기에 더해 할인 프로모션이 적용된 상품과 세트로 구성하면 좋은 상품까지 함께 보여주는 Recommended Products 섹션을 새로 구성했습니다. 상품 노출 영역을 넓혀 사용자가 둘러보는 상품의 폭을 넓히고, 이를 통해 매출 상승 효과까지 기대할 수 있도록 설계했습니다.</p>
             <div class="redesign-compare">
-              <figure><img src="imges/compare/before_bestproduct.png" alt="원본 Best Product 섹션"/><figcaption>Before (원본 — Best Product 하나뿐)</figcaption></figure>
-              <figure><img src="imges/compare/after_recommend.png" alt="리디자인 Recommended Products 섹션"/><figcaption>After (리디자인 — Recommended Products 추가)</figcaption></figure>
+              <figure><img src="images/compare/before_bestproduct.png" alt="원본 Best Product 섹션"/><figcaption>Before (원본 — Best Product 하나뿐)</figcaption></figure>
+              <figure><img src="images/compare/after_recommend.png" alt="리디자인 Recommended Products 섹션"/><figcaption>After (리디자인 — Recommended Products 추가)</figcaption></figure>
             </div>
           </div>
 
@@ -763,8 +759,8 @@
             <p class="redesign-item-desc">원본 사이트는 진행 중인 이벤트·프로모션을 확인하려면 EVENT 카테고리로 따로 진입해야 하며, 메인 화면에서는 전혀 노출되지 않습니다.</p>
             <p class="redesign-item-desc">리디자인에서는 현재 진행 중인 이벤트와 프로모션을 메인 화면에 바로 노출시켜, 사용자가 별도 페이지로 이동하지 않아도 한눈에 확인할 수 있도록 구성했습니다. 이를 통해 프로모션에 대한 사용자의 클릭률 상승을 기대할 수 있습니다.</p>
             <div class="redesign-compare">
-              <figure><img src="imges/compare/before_event.png" alt="원본 EVENT 별도 페이지"/><figcaption>Before (원본 — EVENT 카테고리 진입 필요)</figcaption></figure>
-              <figure><img src="imges/compare/after_promotion.png" alt="리디자인 메인 화면 Promotion 섹션"/><figcaption>After (리디자인 — 메인 화면 상시 노출)</figcaption></figure>
+              <figure><img src="images/compare/before_event.png" alt="원본 EVENT 별도 페이지"/><figcaption>Before (원본 — EVENT 카테고리 진입 필요)</figcaption></figure>
+              <figure><img src="images/compare/after_promotion.png" alt="리디자인 메인 화면 Promotion 섹션"/><figcaption>After (리디자인 — 메인 화면 상시 노출)</figcaption></figure>
             </div>
           </div>
 
@@ -841,7 +837,7 @@
 </section>
 
 <footer>
-  <p>© 2025 이도현 · Frontend Developer</p>
+  <p>© 2026 이도현 · Frontend Developer</p>
   <p>eh_gus111@naver.com</p>
 </footer>
 
@@ -914,9 +910,9 @@
   }
 
   const manyoDesktopShots = [
-    'imges/manyo_01_메인.png',
-    'imges/manyo_02_상품목록.png',
-    'imges/manyo_03_추천상품.png',
+    'images/manyo_01_메인.png',
+    'images/manyo_02_상품목록.png',
+    'images/manyo_03_추천상품.png',
   ];
   let manyoDesktopIdx = 0;
 
